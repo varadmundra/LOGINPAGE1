@@ -1,0 +1,433 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    background: linear-gradient(to right bottom, #4dc7fb, #ac80f4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section{
+    background-color:white;
+    height:857px ;
+    width:  1519px;
+    border-radius: 30px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.panel .pic img{
+    width: 815px;
+    height: 775px;
+    border-radius: 30px;
+}
+
+
+section  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+}
+
+
+section .form h1{
+    font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: 45px;
+letter-spacing: 0em;
+text-align: left;
+font-weight: bold;
+    
+height: 33px;
+width: 222px;
+border-radius: nullpx;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+padding-bottom: 30px;
+
+}
+section .form .details{
+    height: 52px;
+    width: 458px;
+    border-radius: 6.993464469909668px;
+    padding-top: 45px;
+/* display: block; */
+    
+}
+
+section .form .details label{
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+height: 29px;
+width: 212px;    
+border-radius: nullpx;
+}
+
+section .form .details input{
+background-color:#E4F1FFC7 ;
+font-family: Poppins;
+border: none;
+border-radius: 6.99346px;
+height: 52px;
+width: 458px;
+border-radius: 6.993464469909668px;
+}
+
+section .form .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* section .form .logo li{
+
+
+display: flex;
+justify-content: center;
+align-items:center;
+} */
+
+section .form .logo li img{
+    height: 35.587242126464844px;
+    width: 35.676429748535156px;
+    border-radius: 0px;
+    margin: 20px;
+}
+
+section .form p{
+    height: 21px;
+width: 130px;
+
+border-radius: nullpx;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+
+section .form .but{
+ 
+width: 181.9px;
+height: 49.8px;
+line-height: 30px;
+margin-top: 70px ;
+margin-left: 150px;
+margin-bottom: 30px;
+
+}
+
+section .form .but button{
+    font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+background-color:  #0075FF;
+color: white;
+border-radius: 6.99346px;
+border: none;
+padding:1px 15px;
+
+
+
+}
+
+section .form .connect{
+height: 21px;
+width: 130px;
+}
+
+section .form .connect p{
+    border-radius: nullpx;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: center;
+color: #525252CC;
+}
+
+
+section .form .connect p:before {
+    content: "";
+    display:block;
+    border: 0.699346px solid rgba(82, 82, 82, 0.5);
+    height: 0px;
+width: 194.50853452863333px;
+border-radius: nullpx;
+transform: matrix(1, 0, 0, 1, 0, 0);
+
+  }
+
+  section .form .connect p:after {
+    content: "";
+    display: block;
+    border: 0.699346px solid rgba(82, 82, 82, 0.5);
+    height: 0px;
+width: 194.50853452863333px;
+border-radius: nullpx;
+transform: matrix(1, 0, 0, 1, 0, 0);
+
+
+  }
+
+
+section .form .ask{
+    height: 27px;
+width: 517px;
+border-radius: nullpx;
+
+
+
+}
+section .form .ask p{
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: inline;
+}
+
+
+
+
+
+
+
+@media(max-width:375px) and (max-height:812px)
+{
+    .panel .pic img{
+        display:none;
+    }
+    section{
+        
+        height: 429px;
+        width: 335px;
+        left: nullpx;
+        top: nullpx;
+        border-radius: 15.503620147705078px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+    section .form h1{
+    
+        height: 17.053983688354492px;
+        width: 114.72679138183594px;
+        left: 158px;
+        top: 207px;
+        border-radius: nullpx;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 23px;
+        letter-spacing: 0em;
+        padding:0px 0px 0px 0px;    
+        }
+    section .form .details input{
+        height: 26.872941970825195px;
+        width: 236.68861389160156px;
+        border-radius: 3.6141340732574463px;
+        display: flex;
+        justify-content: center;  
+        align-items: center;
+        margin:0px;
+        padding: 0px 0px;
+
+        
+
+        
+        
+    }
+    section .form .details label{
+        font-family: Poppins;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: left; 
+
+        height: 14.986833572387695px;
+width: 109.55892181396484px;
+left: 73.642578125px;
+top: 401.3115234375px;
+border-radius: nullpx;
+display: flex;
+justify-content: flex-start;
+padding-right: 127px;
+
+
+
+
+}
+section .form .but{
+    height: 25.41309356689453px;
+width: 88.09087371826172px;
+border-radius: 3.6141340732574463px;
+margin: 0px 0px 0px 0px;
+display: flex;
+/* justify-content: center;
+align-items: center; */
+/* height: 20.440963745117188px;
+width: 40.54844665527344px;
+border-radius: nullpx; */
+
+
+
+
+}
+
+
+section .form .but button
+{
+    font-family: Poppins;
+font-size: 10px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 200px;
+
+
+}
+
+section  .form .details {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding-top: 0px;
+}
+
+
+
+section .form .logo{
+
+    height: 17.9146671295166px;
+width: 17.9146671295166px;
+
+
+}
+section .form .logo li img{
+
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+border-radius: 0px;
+margin: 10px;
+}
+
+
+section .form .connect{
+    height: 10.852534294128418px;
+    width: 67.18235778808594px;
+    border-radius: nullpx;
+    margin-bottom: 25px; 
+}
+section .form .connect p{
+    font-family: Poppins;
+font-size: 7px;
+font-style: normal;
+font-weight: 300;
+line-height: 11px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+section .form .ask{
+
+    height: 14px;
+width: 134px;
+border-radius: nullpx;
+
+    
+}
+section .form .ask p{
+
+    font-family: Roboto;
+font-size: 9px;
+font-style: normal;
+font-weight: 300;
+line-height: 11px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+}
+
